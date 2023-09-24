@@ -1,5 +1,6 @@
 import React from "react";
 import TopSponsors from "@/static-data/TopContributors";
+import Image from "next/image";
 export const TopContributors = () => {
   return (
     <>
@@ -9,11 +10,14 @@ export const TopContributors = () => {
             Top Sponsors
           </h2>
           {TopSponsors.map((item, index) => (
-            <div class="w-full max-w-xl bg-white mb-[30px] dark:bg-gray-800 rounded-xl shadow-md overflow-hidden">
+            <div
+              key={index}
+              class="w-full max-w-xl bg-white mb-[30px] dark:bg-gray-800 rounded-xl shadow-md overflow-hidden"
+            >
               <div class="flex justify-between items-center px-6 py-4">
                 <div class="flex space-x-4">
                   <div>
-                    <img
+                    <Image
                       alt="Profile"
                       class="rounded-full"
                       height="48"

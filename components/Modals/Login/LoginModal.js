@@ -1,10 +1,11 @@
 import styles from "./LoginModal.module.css";
-import { useState, React } from "react";
+import React, { useState } from "react";
 const LoginModal = ({ isOpen, onClose }) => {
-  if (!isOpen) return null;
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState(false);
+  const [password, setPassword] = useState(false);
   const [isLoading, setLoading] = useState(false); // State for loading indicator
+
+  if (!isOpen) return null;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

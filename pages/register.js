@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import SponsorRegistrationForm from "@/components/Auth/SponsorRegistrationForm";
 import VolunteerRegistrationForm from "@/components/Auth/VolunteerRegistrationForm";
-const register = () => {
+
+const Register = () => {
   const [activeTab, setActiveTab] = useState("sponsors");
 
   const handleTabChange = (tab) => {
@@ -46,4 +47,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;

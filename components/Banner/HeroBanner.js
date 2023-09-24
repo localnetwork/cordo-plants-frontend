@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HeroBanner.module.css";
-
+import Link from "next/link";
 const HeroBanner = () => {
   return (
     <section className="relative">
@@ -27,18 +27,18 @@ const HeroBanner = () => {
         </h2>
 
         <div className="flex pt-[80px] items-center gap-[20px] font-bold text-[20px]">
-          <a
+          <Link
             href="/"
             className="py-[15px] px-[30px] bg-[var(--primaryColor)] text-white inline-block rounded-[5px] hover:opacity-[.9]"
           >
             Be Our Partner
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="py-[15px] px-[30px] text-white inline-block border-[2px] rounded-[5px]"
           >
             Know More About Us
-          </a>
+          </Link>
         </div>
       </div>
     </section>

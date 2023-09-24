@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const about = () => {
   return (
     <>
@@ -9,11 +9,12 @@ const about = () => {
           <h1 className="text-[var(--textPrimary)] text-[6rem] max-w-[960px] font-semibold mb-[70px] leading-[6.5rem]">
             Planting forward together
           </h1>
-          <img
+          <Image
             className="object-cover h-[721px]"
             src="/images/about/hero.jpg"
             width="1920"
             height="721"
+            alt="About Hero"
           />
           <div className="p-[100px] bg-white text-center">
             <h2 className="text-[2.25rem] leading-[2.75rem]">

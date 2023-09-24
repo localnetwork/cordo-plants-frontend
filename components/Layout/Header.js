@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState, React } from "react";
 import LoginModal from "../Modals/Login/LoginModal";
+import Image from "next/image";
 export const Header = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -17,11 +18,12 @@ export const Header = () => {
       <div className="mx-auto px-[30px] flex items-center justify-between">
         <div className="site-logo">
           <Link href="/">
-            <img
+            <Image
               className="max-w-[120px]"
               width={200}
               height={201}
               src={`/images/logo.png`}
+              alt="Logo"
             />
           </Link>
         </div>

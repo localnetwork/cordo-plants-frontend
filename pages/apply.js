@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 const apply = () => {
   return (
     <>
@@ -48,11 +48,12 @@ const apply = () => {
           </div>
         </div>
         <div className="max-w-[50%] pl-[50px]">
-          <img
+          <Image
             className="h-[800px] w-full object-cover"
             src="/images/register/apply_banner.jpg"
             width="1200"
             height="800"
+            alt="Apply Hero"
           />
         </div>
       </div>

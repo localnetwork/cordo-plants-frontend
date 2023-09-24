@@ -6,7 +6,7 @@ const contact = () => {
       <header class="bg-gray-900 text-white py-6">
         <div class="container mx-auto text-center">
           <h1 class="text-3xl font-semibold">Contact Us</h1>
-          <p class="text-sm">We'd love to hear from you!</p>
+          <p class="text-sm">We would love to hear from you!</p>
         </div>
       </header>
 
