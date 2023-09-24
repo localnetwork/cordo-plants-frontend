@@ -32,7 +32,7 @@ const apply = () => {
             </div>
             <div>
               <Link
-                className="min-w-[300px] justify-between inline-flex items-center text-[#005339] rounded-[50px] bg-[#eef9f9] font-semibold text-[25px] text-white p-[32px] "
+                className="min-w-[300px] justify-between inline-flex items-center text-[#005339] rounded-[50px] bg-[#eef9f9] font-semibold text-[25px] p-[32px] "
                 href="/"
               >
                 Volunteer
@@ -40,7 +40,7 @@ const apply = () => {
                   className="ml-[20px]"
                   dangerouslySetInnerHTML={{
                     __html:
-                      '<svg class="hero-cta-arrow___3RvtT" width="24" height="24" xmlns="http://www.w3.org/2000/svg" > <g clip-path="url(#prefix__clip0_132_30)"> <path fill="#001e1f" clip-rule="evenodd" d="M18.755 12.75H3.75a.75.75 0 010-1.5h15.006l-5.473-5.473a.748.748 0 111.058-1.058l6.22 6.22a1.5 1.5 0 010 2.12l-6.223 6.223a.748.748 0 01-1.058-1.058l5.475-5.474z" ></path> </g> <defs> <clipPath id="prefix__clip0_132_30"> <path d="M0 0h24v24H0z"></path> </clipPath> </defs> </svg>',
+                      '<svg class="hero-cta-arrow___3RvtT" width="24" height="24" xmlns="http://www.w3.org/2000/svg" > <g clip-path="url(#prefix__clip0_132_30)"> <path fill="#005339" clip-rule="evenodd" d="M18.755 12.75H3.75a.75.75 0 010-1.5h15.006l-5.473-5.473a.748.748 0 111.058-1.058l6.22 6.22a1.5 1.5 0 010 2.12l-6.223 6.223a.748.748 0 01-1.058-1.058l5.475-5.474z" ></path> </g> <defs> <clipPath id="prefix__clip0_132_30"> <path d="M0 0h24v24H0z"></path> </clipPath> </defs> </svg>',
                   }}
                 ></span>
               </Link>
