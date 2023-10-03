@@ -8,7 +8,7 @@ const apply = () => {
         <div className="pl-[50px] flex flex-col justify-end">
           <p className="text-[1.5rem] leading-[2rem] ">Cordo-Partner</p>
           <h1 className="text-[var(--textPrimary)] text-[6rem] max-w-[960px] font-semibold mb-[70px] leading-[6.5rem]">
-            Make someone’s day by planting
+            Make someone’s day by planting. Apply now
           </h1>
 
           <h3 className="text-[1.5rem] leading-[2rem] mb-[30px] font-bold text-[#005339]">
